@@ -9,8 +9,8 @@ const Movie = ({movie}) => {
   return (
     <div className="movie">
       <img src={poster} width="200" alt={movie.Title} />
-      <h3>{movie.Title}</h3>
-      <h5>({movie.Year})</h5>
+      <h4>{movie.Title}</h4>
+      <h6>({movie.Year})</h6>
     </div>
   )
 }

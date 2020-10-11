@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: black;
+  background-color: #19334d;
 
 }
 
@@ -16,9 +16,9 @@ body {
   padding: 4rem;
   margin-bottom: 1rem;
   position: sticky;
-  animation: 
+  /* animation: 
     HeaderPulse ease 25s infinite,
-    HeaderPulse 20s linear infinite alternate;
+    HeaderPulse 20s linear infinite alternate; */
 }
 
 .pageTitle{
@@ -28,16 +28,25 @@ body {
 }
 
 .movie{
-  border-radius: 10%;
-  box-shadow: 2px 2px 2px white;
+  max-width: 20rem;
   color: white;
   margin: 1rem;
   display: inline-block;
+  text-align: left;
+  padding: 3rem;
 }
 
-img {
-  margin: 1rem;
+h4{
+  margin-top: 2rem;
 }
+
+
+img {
+  width: 250px;
+  height: 350px;
+  box-shadow: 5px 10px 18px black;
+}
+
 
 .footer{
   background-color: purple;
