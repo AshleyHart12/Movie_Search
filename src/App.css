@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-color: black;
+
+}
+
+@keyframes HeaderPulse {
+  0% {background-color: #708090;}
+  50% {background-color: #F5F5F5;}
+  100% {background-color: #708090;}
+}
+
+.header { 
+  color: white;
+  justify-content: center;
+  padding: 4rem;
+  margin-bottom: 1rem;
+  position: sticky;
+  animation: 
+    HeaderPulse ease 25s infinite,
+    HeaderPulse 20s linear infinite alternate;
+}
+
+.pageTitle{
+  max-width: 25rem;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.movie{
+  border-radius: 10%;
+  box-shadow: 2px 2px 2px white;
+  color: white;
+  margin: 1rem;
+  display: inline-block;
+}
+
+img {
+  margin: 1rem;
+}
+
+.footer{
+  background-color: purple;
+  background-image: linear-gradient(rgb(43, 2, 82), rgb(83, 2, 116));
+  color: white;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 1rem;
+  position: absolute;
+  width: 100%;
+}
+
